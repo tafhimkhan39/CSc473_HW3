@@ -101,5 +101,125 @@ button {
   font-weight: bold;
 }
 
-  
-  
+@media (max-width: 1024px) {
+  body {
+    margin: 30px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  table {
+    font-size: 0.95em;
+  }
+
+  select, input[type="number"], input[type="text"] {
+    max-width: 160px;
+  }
+
+  button {
+    font-size: 0.95em;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+
+  select, input[type="number"], input[type="text"] {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  select, input[type="number"], input[type="text"] {
+    max-width: 100%;
+    padding: 8px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 0.85em;
+  }
+
+  button {
+    font-size: 0.85em;
+    padding: 7px;
+  }
+
+  .gpa-result {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  select, input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 6px;
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  .container {
+    box-shadow: 0 2px 8px black;
+    padding: 10px;
+  }
+
+  .gpa-result {
+    font-size: 1em;
+  }
+}
